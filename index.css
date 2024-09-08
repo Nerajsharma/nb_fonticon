@@ -1,0 +1,351 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+  background: #fff;
+}
+
+#mainiconcon {
+  /* padding: 0.5em; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 5px; */
+}
+
+#mainiconcon .glyph {
+  width: 48%;
+  border: 1px solid rgb(181, 181, 181);
+  margin: 1% 0px;
+  padding: 0.5em;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgb(186, 186, 186);
+  cursor: pointer;
+}
+
+#mainiconcon .glyph:hover {
+  background-color: #e7eff4eb;
+  box-shadow: 0 0 5px rgb(124, 124, 124);
+}
+
+input {
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+small {
+  font-size: .66666667em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  box-shadow: 0 1px #e74c3c;
+}
+
+.bshadow0,
+input {
+  box-shadow: inset 0 -2px #e7e7e7;
+}
+
+input:hover {
+  box-shadow: inset 0 -2px #ccc;
+}
+
+input,
+fieldset {
+  font-family: sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+input {
+  color: inherit;
+  line-height: 1.5;
+  height: 1.5em;
+  padding: .25em 0;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: inset 0 -2px #449fdb;
+}
+
+.liga {
+  width: 80%;
+  width: calc(100% - 2.5em);
+}
+
+.talign-right {
+  text-align: right;
+}
+
+.talign-center {
+  text-align: center;
+}
+
+.bgc1 {
+  background: #f1f1f1;
+}
+
+.fgc1 {
+  color: #999;
+}
+
+.fgc0 {
+  color: #000;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.mvm {
+  margin-top: .75em;
+  margin-bottom: .75em;
+}
+
+.mtn {
+  margin-top: 0;
+}
+
+.mtl,
+.mal {
+  margin-top: 1.5em;
+}
+
+.mbl,
+.mal {
+  margin-bottom: 1.5em;
+}
+
+.mal,
+.mhl {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.mhmm {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.mls {
+  margin-left: .25em;
+  font-size: 14px;
+  /* display: hidden; */
+}
+
+.ptl {
+  padding-top: 1.5em;
+}
+
+.pbs,
+.pvs {
+  padding-bottom: .25em;
+}
+
+.pvs,
+.pts {
+  padding-top: .25em;
+}
+
+.unit {
+  float: left;
+}
+
+.unitRight {
+  float: right;
+}
+
+.size1of2 {
+  width: 50%;
+}
+
+.size1of1 {
+  width: 100%;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.hidden-true {
+  display: none;
+}
+
+.textbox0 {
+  width: 3em;
+  background: #f1f1f1;
+  padding: .25em .5em;
+  line-height: 1.5;
+  height: 1.5em;
+}
+
+#testDrive {
+  display: block;
+  padding-top: 24px;
+  line-height: 1.5;
+}
+
+.fs0 {
+  font-size: 16px;
+}
+
+.fs1 {
+  font-size: 48px;
+}
+
+.fs2 {
+  font-size: 32px;
+}
+
+.fs3 {
+  font-size: 32px;
+}
+
+.fs4 {
+  font-size: 24px;
+}
+
+.fs5 {
+  font-size: 32px;
+}
+
+.search_icon_wapp {
+  width: 100%;
+  display: block;
+  justify-content: flex-start;
+  padding: 1em !important;
+}
+
+#inputiconname {
+  display: block;
+  margin: auto;
+  border: 2px solid black !important;
+  border-radius: 5px;
+  padding: 8px !important;
+  font-size: 18px;
+  width: 90%;
+  height: auto;
+}
+
+#inputiconname:focus {
+  outline: none !important;
+  /* border: none !important; */
+  box-shadow: 0 0 5px black;
+}
+
+.navbar_ouline a {
+  color: initial;
+}
+
+.navbar_ouline {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  padding: 1em;
+}
+
+.navbar_ouline li {
+  padding: 5px 12px;
+  margin: 0 8px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+.navbar_ouline li:hover {
+  color: crimson;
+  font-weight: bold;
+  box-shadow: 0 1px #e74c3c;
+}
+
+fieldset input:nth-child(2) {
+  display: none !important;
+}
+
+footer {
+  background-color: #449fdb;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 2em 0px;
+}
+
+#documentary {
+  background-color: #b4d1df;
+  padding: 1em;
+}
+
+p.header {
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+p.cdn {
+  background-color: #ec6758;
+  padding: 5px 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  /* overflow: auto; */
+
+}
+
+#gotop {
+  position: fixed;
+  bottom: 1em;
+  right: 1%;
+  background-color: crimson;
+  padding: 5px 9px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 760px) {
+  #mainiconcon .glyph {
+    width: 24%;
+  }
+
+  #inputiconname {
+    width: 50%;
+  }
+}
